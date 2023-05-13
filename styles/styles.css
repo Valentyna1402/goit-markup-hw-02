@@ -18,8 +18,9 @@
 }
 
 body {
-  font-family: roboto, sans-serif;
+  font-family:  "Roboto", sans-serif;
   color: var(--slate-color);
+  background-color: var(--white-color)
 }
 .list {
   list-style: none;
@@ -62,27 +63,20 @@ body {
 .logo-header {
   color: var(--navy-color);
 }
-.logo-footer {
-  color: var(--cloud-color);
-}
 
-.logo-color {
+.logo-link {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--iris-color);
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
-.logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.header-contacts{
+    font-style: normal;
+    color: var(--slate-color);
 }
 
 .header-nav-item {
@@ -97,7 +91,6 @@ body {
   font-size: var(--text-font-size);
   line-height: var(--standart-line-height);
   letter-spacing: var(--standart-letter-spacing);
-  color: var(--slate-color);
 }
 
 /* ---------------ORDER--------------------- */
@@ -115,8 +108,10 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--standart-letter-spacing);
+  text-align: center
 }
 .order-btn {
+    font-family: inherit;
   background-color: var(--iris-color);
   color: var(--white-color);
   font-weight: 500;
@@ -132,6 +127,7 @@ body {
   font-size: var(--item-title-size);
   line-height: 1.2;
   letter-spacing: var(--standart-letter-spacing);
+  color: var(--navy-color);
 }
 .values-item-text {
   font-size: var(--text-font-size);
@@ -146,6 +142,7 @@ body {
   line-height: 1.11;
   letter-spacing: var(--standart-letter-spacing);
   text-transform: capitalize;
+  text-align: center;
   color: var(--navy-color);
 }
 
@@ -159,6 +156,7 @@ body {
   line-height: 1.11;
   letter-spacing: var(--standart-letter-spacing);
   text-transform: capitalize;
+  text-align: center;
   color: var(--navy-color);
 }
 .team-item-title {
@@ -182,6 +180,9 @@ body {
 .footer {
   background-color: var(--navy-color);
 }
+.logo-footer {
+    color: var(--cloud-color);
+  }
 .footer-text {
   font-size: var(--text-font-size);
   line-height: var(--standart-line-height);
@@ -193,6 +194,7 @@ body {
 /* ---------------FILTER--------------------- */
 
 .filter-btn {
+    font-family: inherit;
   background-color: var(--cloud-color);
   color: var(--iris-color);
   font-weight: 500;
