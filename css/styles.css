@@ -37,10 +37,6 @@ body {
 .btn:focus {
   background-color: var(--ocean-color);
 }
-.link:hover,
-.link:focus {
-  color: var(--ocean-color);
-}
 
 .visuallyhidden {
   border: 0;
@@ -57,9 +53,6 @@ body {
 
 /* ---------------HEADER--------------------- */
 
-.header {
-  background-color: var(--cornflower-color);
-}
 .logo-header {
   color: var(--navy-color);
 }
@@ -78,18 +71,24 @@ body {
   font-style: normal;
 }
 
-.header-contacts-link{
-    color: var(--slate-color);
+.header-contacts-link {
+  color: var(--slate-color);
 }
 
-.header-nav-item {
+.header-nav-link {
   font-style: normal;
   font-weight: 500;
   font-size: var(--text-font-size);
   line-height: var(--standart-line-height);
   letter-spacing: var(--standart-letter-spacing);
 }
-.header-contacts-item {
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--ocean-color);
+}
+
+.header-contacts-link {
   font-style: normal;
   font-size: var(--text-font-size);
   line-height: var(--standart-line-height);
@@ -97,16 +96,17 @@ body {
   color: var(--slate-color);
 }
 
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--ocean-color);
+}
+
 /* ---------------ORDER--------------------- */
 
 .order {
   background-color: var(--navy-color);
 }
-.header-contacts-item {
-  font-size: var(--text-font-size);
-  line-height: var(--standart-line-height);
-  letter-spacing: var(--standart-letter-spacing);
-}
+
 .order-title {
   color: var(--white-color);
   font-size: 56px;
@@ -211,9 +211,7 @@ body {
 .filter-btn:focus {
   color: var(--white-color);
 }
-.projects-item {
-  background-color: var(--cornflower-color);
-}
+
 .projects-item-title {
   font-weight: 500;
   font-size: var(--item-title-size);
