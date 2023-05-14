@@ -76,7 +76,10 @@ body {
 
 .header-contacts {
   font-style: normal;
-  color: var(--slate-color);
+}
+
+.header-contacts-link{
+    color: var(--slate-color);
 }
 
 .header-nav-item {
